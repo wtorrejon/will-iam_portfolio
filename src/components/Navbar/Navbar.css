@@ -1,0 +1,72 @@
+.burguer-icon{
+    display: none;
+}
+.navbar-hero{
+    width: auto;
+    height: 70px;
+    border: solid 1px #DAC5A7;
+    margin-top: 1.875rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.navbar-logo img{
+    width: 107px;
+    height: 35px;
+}
+.navbar-links-links a{
+    text-decoration: none;
+    color: #DAC5A7;
+    font-size: 0.813rem;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+    position: relative;
+}
+.navbar-links-links a:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: -5px;
+    left: 0;
+    background-color: #DAC5A7;
+    transform: scalex(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+}
+.navbar-links-links a:hover:after{
+    transform: scaleX(1) ;
+    transform-origin: bottom left;
+}
+
+.navbar-redes-links a{
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (max-width: 1000px) {
+    .navbar-hero{
+        width: calc(100vw - 2rem);
+    }
+}
+@media screen and (max-width: 832px) {
+    .navbar-hero{
+        width: calc(100vw - 2rem);
+    }
+
+    .burguer-icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .navbar-links{
+        display: none;
+    }
+    .navbar-redes{
+        display: none;
+    }
+
+}
