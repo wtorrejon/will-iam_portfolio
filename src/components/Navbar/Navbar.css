@@ -48,7 +48,7 @@
 
 @media screen and (max-width: 1000px) {
     .navbar-hero{
-        width: calc(100vw - 2rem);
+        width: auto;
     }
 }
 @media screen and (max-width: 832px) {
