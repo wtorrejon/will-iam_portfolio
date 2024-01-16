@@ -1,3 +1,4 @@
+import Banner from '../../components/Banner/Banner.jsx'
 import Navbar from '../../components/Navbar/Navbar.jsx'
 import Cards from '../../components/cards/Cards.jsx'
 
@@ -11,6 +12,7 @@ function App() {
     <>
       <div className='App flex-col justify-center items-center '>
         <Navbar />
+        <Banner />
         <Cards />
       </div>
 
