@@ -47,15 +47,10 @@
 }
 
 @media screen and (max-width: 1000px) {
-    .navbar-hero{
-        width: auto;
-    }
+    
 }
 @media screen and (max-width: 832px) {
-    .navbar-hero{
-        width: calc(100vw - 2rem);
-    }
-
+    
     .burguer-icon{
         display: flex;
         justify-content: center;

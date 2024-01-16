@@ -1,5 +1,6 @@
 import Navbar from '../../components/Navbar/Navbar.jsx'
-import Cards from '../../components/Cards/Cards.jsx'
+import Cards from '../../components/cards/Cards.jsx'
+
 import './App.css'
 
 
@@ -8,9 +9,9 @@ import './App.css'
 function App() {
   return (
     <>
-      <div className='App flex-1'>
+      <div className='App flex-col justify-center items-center '>
         <Navbar />
-        < Cards />
+        <Cards />
       </div>
 
 

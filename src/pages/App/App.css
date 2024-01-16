@@ -3,6 +3,5 @@
 @tailwind utilities;
 
 .App {
-  max-width: 1000px;
   display: flex;
 }
