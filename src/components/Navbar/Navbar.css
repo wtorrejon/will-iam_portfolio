@@ -4,10 +4,11 @@
 .navbar-hero{
     width: auto;
     height: 70px;
-    border: solid 1px #DAC5A7;
+    border: solid 1px;
     margin-top: 1.875rem;
     margin-left: 1rem;
     margin-right: 1rem;
+    backdrop-filter: blur(30px);
 }
 .navbar-logo img{
     width: 107px;
@@ -16,9 +17,8 @@
 .navbar-links-links a{
     text-decoration: none;
     color: #DAC5A7;
-    font-size: 0.813rem;
+    font-size: 13px;
     font-weight: 300;
-    font-family: 'Montserrat', sans-serif;
     transition: all 0.3s ease-in-out;
     display: inline-block;
     position: relative;
@@ -43,7 +43,6 @@
 .navbar-redes-links a{
     font-size: 13px;
     font-weight: 500;
-    font-family: 'Montserrat', sans-serif;
 }
 
 @media screen and (max-width: 1000px) {

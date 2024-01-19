@@ -1,9 +1,15 @@
+@import url('./assets/fuentes/satoshi/satoshi.css');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-}
+  font-family: 'Satoshi-Regular';
+} 
+
+
 
 *{
   margin: 0;
@@ -11,6 +17,7 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
+  font-family: 'satoshi', sans-serif;
 }
 
 body{
