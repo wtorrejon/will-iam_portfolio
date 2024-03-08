@@ -32,7 +32,7 @@ const Banner = () => {
                                     </defs>
                                 </svg>
                             </div>
-                            <p className='parrafo1 flex justify-center text-lg font-thin text-[#DAC5A7]'>My Skills</p>
+                            <p className='parrafo1 flex justify-center text-lg text-[#FFE70B]'>My Skills</p>
                         </div>
                     </div>
                 </div>
