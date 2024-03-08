@@ -15,3 +15,11 @@
 .secondaryText {
     font-family: 'Gambetta-LightItalic', serif  ;
 }
+.parrafo1 {
+    font-family: 'Satoshi-Regular', serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    
+}
