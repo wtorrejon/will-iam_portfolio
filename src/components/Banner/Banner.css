@@ -13,13 +13,28 @@
 }
 
 .secondaryText {
-    font-family: 'Gambetta-LightItalic', serif  ;
+    font-family: 'Gambetta-LightItalic', serif;
 }
+
 .parrafo1 {
     font-family: 'Satoshi-Regular', serif;
     display: flex;
     justify-content: center;
     text-align: center;
     font-size: 18px;
-    
+    font-weight: 800;
+    animation: neon1 1.5s ease-in-out infinite alternate;
+}
+
+
+@keyframes neon1 {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #DAC5A7,
+            0 0 70px #DAC5A7, 0 0 80px #DAC5A7, 0 0 100px #DAC5A7, 0 0 150px #DAC5A7;
+    }
+
+    to {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #DAC5A7,
+            0 0 35px #DAC5A7, 0 0 40px #DAC5A7, 0 0 50px #DAC5A7, 0 0 75px #DAC5A7;
+    }
 }
