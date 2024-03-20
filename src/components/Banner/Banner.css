@@ -24,17 +24,67 @@
     font-size: 18px;
     font-weight: 800;
     animation: neon1 1.5s ease-in-out infinite alternate;
+    /* keyframes */
+    /*   text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+      0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092;
+    color: #fccaff; */
+    text-shadow: 0 0 5px #FFE70B, 0 0 5px #FFE70B, 0 0 5px #FFE70B, 0 0 40px #FFE70B, 0 0 20px #ff0000, 0 0 10px #FFE70B, 0 0 50px #FFE70B;
+    color: #fff6a9;
+    text-align: center;
+    animation: blink 12s infinite;
+    -webkit-animation: blink 12s infinite;
+
 }
 
+.wrapperSkills div > svg{
+    dropshadow: #ff8d00 0px 0px 10px 5px;
+}
+@-webkit-keyframes blink {
 
-@keyframes neon1 {
-    from {
-        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #DAC5A7,
-            0 0 70px #DAC5A7, 0 0 80px #DAC5A7, 0 0 100px #DAC5A7, 0 0 150px #DAC5A7;
+    20%,
+    24%,
+    55% {
+        color: #111;
+        text-shadow: none;
     }
 
-    to {
-        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #DAC5A7,
-            0 0 35px #DAC5A7, 0 0 40px #DAC5A7, 0 0 50px #DAC5A7, 0 0 75px #DAC5A7;
+    0%,
+    19%,
+    21%,
+    23%,
+    25%,
+    54%,
+    56%,
+    100% {
+        /*     color: #fccaff;
+      text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+        0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092; */
+        text-shadow: 0 0 5px #FFE70B, 0 0 15px #FFE70B, 0 0 20px #FFE70B, 0 0 40px #FFE70B, 0 0 60px #ff0000, 0 0 10px #FFE70B, 0 0 98px #ff0000;
+        color: #fff6a9;
+    }
+}
+
+@keyframes blink {
+
+    20%,
+    24%,
+    55% {
+        color: #111;
+        text-shadow: none;
+    }
+
+    0%,
+    19%,
+    21%,
+    23%,
+    25%,
+    54%,
+    56%,
+    100% {
+        /*     color: #fccaff;
+      text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+        0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092; */
+        text-shadow: 0 0 5px #FFE70B, 0 0 15px #FFE70B, 0 0 20px #FFE70B, 0 0 40px #FFE70B, 0 0 60px #ff0000, 0 0 10px #FFE70B, 0 0 98px #ff0000;
+        color: #fff6a9;
     }
 }

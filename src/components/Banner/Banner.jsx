@@ -14,8 +14,8 @@ const Banner = () => {
                             <p className=' principalText text-[#DAC5A7] text-8xl'>Web Designer</p>
                             <p className=' secondaryText text-[#DAC5A7] text-8xl' >& Developer</p>
                         </div>
-                        <div className=' flex justify-center items-center mt-2 mb-2'>
-                            <div className='  pr-2 '>
+                        <div className='wrapperSkills flex justify-center items-center mt-2 mb-2'>
+                            <div className=' pr-2 '>
                                 <svg width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g filter="url(#filter0_b_118_34)">
                                         <rect x="0.529297" y="0.157959" width="40" height="40" rx="20" fill="#FFE70B" fillOpacity="0.23" />

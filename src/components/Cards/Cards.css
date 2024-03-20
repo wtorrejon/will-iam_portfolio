@@ -1,3 +1,44 @@
+.sectionServices{
+    width: 100%;
+    height: min-content;
+    display: flex;
+    flex: auto;
+    align-items: center;
+    place-content: center flex-start;
+    gap: 16px;
+    flex-flow: column;
+    padding: 80px 0 0;
+    overflow: visible;
+}
+.frameH{
+    place-content: center;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: column;
+    align-items: center;
+    gap: 10px;
+    height: min-content;
+    overflow: visible;
+    padding: 0 48px;
+    position: relative;
+    width: 100%;
+}
+
+.containerCards{
+    place-content: center flex-start;
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: column;
+    row-gap: 64px;
+    column-gap: 64px;
+    height: min-content;
+    max-width: 1400px;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+    width: 100%; 
+}
 .wrapper-card{
     border: 2px solid #343230;
 }
