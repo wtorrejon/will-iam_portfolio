@@ -1,0 +1,26 @@
+
+.workImage{
+    max-width: 684px;
+    object-fit: cover;
+    /* agrega un filtro de color #DAC5A7 */
+    filter: opacity(80%);
+    overflow: hidden;
+}
+.workImage > img{
+    max-width: 684px;
+    height: 100%;
+    object-fit: cover;
+}
+.hrefImage{
+    position: relative;
+}
+.workTittleWrapper{
+    width: 100%;
+    background-color: blue;
+    position: absolute;
+    bottom: 24px;
+    left: 0;
+}
+.workTittle{
+
+}

@@ -7,7 +7,7 @@ const Navbar = () => {
 
   return (
 
-    <div className='fixed inset-x-0 top-0 flex justify-center items-center'>
+    <div className='fixed inset-x-0 top-0 flex justify-center items-center z-40'>
       <div className='navbar-hero justify-between items-center border-[#DAC5A7]/15 bg-[#DAC5A7]/5 '>
         <div className=" flex justify-center items-center p-4">
           <div className="navbar-logo flex">

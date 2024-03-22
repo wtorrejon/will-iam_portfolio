@@ -1,5 +1,6 @@
 import Banner from '../../components/Banner/Banner.jsx'
 import Navbar from '../../components/Navbar/Navbar.jsx'
+import Work from '../../components/Work/Work.jsx'
 import Cards from '../../components/cards/Cards.jsx'
 import Skills from '../../components/skills/Skills.jsx'
 
@@ -16,6 +17,7 @@ function App() {
         <Banner />
         <Skills />
         <Cards />
+        <Work />
       </div>
     </>
   )

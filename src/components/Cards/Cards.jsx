@@ -36,7 +36,8 @@ const Cards = () => {
           <div className='grid grid-cols-1 xl:grid-cols-3 gap-4'>
             {
               dataCards.map((card) => (
-                <Card key={card.id} order={card.order} title={card.title} description={card.description} link={card.link} />
+                <Card 
+                key={card.id} order={card.order} title={card.title} description={card.description} link={card.link} />
               ))
             }
           </div>

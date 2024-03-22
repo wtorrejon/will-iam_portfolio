@@ -1,0 +1,27 @@
+.sectionWork{
+    place-content: flex-start center;
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: row;
+    gap: 64px;
+    height: min-content;
+    overflow: visible;
+    padding: 128px 0 0;
+    position: relative;
+    width: 100%;
+}
+
+.framerWork{
+    place-content: flex-start center;
+    align-items: center;
+    place-self: start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: wrap;
+    gap: 48px;
+    height: min-content;
+    padding:0 0;
+    position: relative;
+    width: 100%;
+}
