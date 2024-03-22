@@ -1,8 +1,9 @@
-
+.wrapper-works{
+    border: 2px solid #181715;
+}
 .workImage{
     max-width: 684px;
     object-fit: cover;
-    /* agrega un filtro de color #DAC5A7 */
     filter: opacity(80%);
     overflow: hidden;
 }
@@ -16,11 +17,29 @@
 }
 .workTittleWrapper{
     width: 100%;
-    background-color: blue;
     position: absolute;
     bottom: 24px;
     left: 0;
 }
 .workTittle{
+    width: 100%;
+    background-color: aqua;
+    margin-left: 24px;
+    margin-right: 24px;
+    padding: 8px 16px;
+    border: 2px solid;
+}
 
+.workTittle h2{
+    font-size: 24px;
+    font-family: 'Satoshi-Light', serif;
+    text-align: center;
+    margin: 0;
+}
+
+.workTittle p{
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
 }

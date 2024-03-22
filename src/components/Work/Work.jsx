@@ -5,7 +5,7 @@ const dataWorks = [
   {
     id: 1,
     tittle: "Zeta innovation",
-    skills: "HTML, CSS, JS",
+    skills: "WEB DESING",
     link: "https://wtorrejon.github.io/zetabioinnovacion.github.io/?#nosotros",
     image: "https://github.com/wtorrejon/assets/blob/main/imgWorks/ZetainnovationWeb.PNG?raw=true"
   },
