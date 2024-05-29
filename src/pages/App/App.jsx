@@ -1,23 +1,27 @@
-import Banner from '../../components/Banner/Banner.jsx'
+import { useRoutes, BrowserRouter } from 'react-router-dom';
+import { Servicios } from '../Servicios/Servicios';
 import Navbar from '../../components/Navbar/Navbar.jsx'
-import Work from '../../components/Work/Work.jsx'
-import Cards from '../../components/cards/Cards.jsx'
-import Skills from '../../components/skills/Skills.jsx'
-
+import { Home } from '../Home/Home.jsx';
 import './App.css'
 
-
+const AppRoutes = () => {
+  let routes = useRoutes([
+    { path: '/', element: <Home /> },
+    { path: '/servicios', element: <Servicios /> }
+   
+  ])
+  return routes;
+}
 
 
 function App() {
   return (
     <>
       <div className='App flex-col justify-center items-center '>
-        <Navbar />
-        <Banner />
-        <Skills />
-        <Cards />
-        <Work />
+        <BrowserRouter>
+          <AppRoutes />
+          <Navbar />
+        </BrowserRouter>
       </div>
     </>
   )
