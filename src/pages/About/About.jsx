@@ -1,8 +1,8 @@
 
 const About = () => {
   return (
-    <div>About</div>
+    <div className="servicios text-[#DAC5A7] text-6xl ">Acerca de Mi</div>
   )
 }
 
-export default About
+export {About}

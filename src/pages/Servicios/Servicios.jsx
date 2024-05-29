@@ -1,7 +1,8 @@
+import "./Servicios.css"
 
 const Servicios = () => {
   return (
-    <div>Mis Servicios</div>
+    <div className="servicios text-[#DAC5A7] text-6xl ">Mis Servicios</div>
   )
 }
 
