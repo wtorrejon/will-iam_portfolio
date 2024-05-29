@@ -16,13 +16,13 @@ const Navbar = () => {
           <div className="navbar-links pl-6 pr-6">
             <ul className="navbar-links-links flex justify-between items-center gap-4" >
               <li>
-                <a href="">SERVICES</a>
+                <a href="">SERVICIOS</a>
               </li>
               <li>
-                <a href="">WORK</a>
+                <a href="">PROYECTOS</a>
               </li>
               <li>
-                <a href="">ABOUT</a>
+                <a href="">NOSOTROS</a>
               </li>
               <li>
                 <a href="">BLOG</a>
@@ -32,8 +32,8 @@ const Navbar = () => {
           <div className="navbar-redes  bg-[#FFE70B] pr-3 pl-3 pt-2 pb-2 rounded-sm">
             <ul className="navbar-redes-links flex justify-center items-center">
               <li>
-                <a className=" text-[#272624]" href="letsTalk">
-                  LET`S TALK
+                <a className="text-[#272624]" href="CONTACTO">
+                CONTACTO
                 </a>
               </li>
             </ul>
