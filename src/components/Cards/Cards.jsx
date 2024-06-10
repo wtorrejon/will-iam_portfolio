@@ -24,7 +24,8 @@ const dataCards = [
     description: 'Obtenga soluciones de desarrollo web personalizadas que se adapten a sus especificaciones y estén diseñadas para ofrecer una experiencia de usuario impecable.',
     link: 'ABOUT DEVELOPMENT'
   },
-  // {
+  // {git status
+  
   //   id: 4,
   //   order: "03",
   //   title: 'CONTENT & SEO',
