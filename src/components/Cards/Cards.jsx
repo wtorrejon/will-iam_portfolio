@@ -12,14 +12,14 @@ const dataCards = [
   },
   {
     id: 2,
-    order: "01",
+    order: "02",
     title: 'PROYECTOS INDUSTRIALES',
     description: 'Visually stunning web designs that captivate your audience by blending your brand voice and customer needs.',
     link: 'VER MAS'
   },
   {
     id: 3,
-    order: "02",
+    order: "03",
     title: 'DESARROLLO DE SOFTWARE',
     description: 'Obtenga soluciones de desarrollo web personalizadas que se adapten a sus especificaciones y estén diseñadas para ofrecer una experiencia de usuario impecable.',
     link: 'ABOUT DEVELOPMENT'
